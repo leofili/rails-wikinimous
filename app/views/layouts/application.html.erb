@@ -10,6 +10,10 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <%= link_to "Wikinimous", root_path, class:"navbar-brand" %>
+      <a href="/articles/new">New Article</a>
+    </nav>
     <%= yield %>
   </body>
 </html>
